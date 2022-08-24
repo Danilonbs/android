@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: #CADCEF;
+    margin: auto;
+}
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(0,212,255,1) 39%, rgba(6,6,42,1) 70%);
+    height: 190px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    box-shadow: 0px 0px 5px 0px #3D556F;
+}
+
+    header > aside {
+        padding: 20px;
+        
+    }
+ul {
+    display: inline-block;
+}
+
+nav {
+    background-color: #06062A;
+    color: white;
+    padding: 5px;
+
+}
+
+nav > a:hover {
+    text-decoration: none;
+    background-color: #6BC6FF;
+    
+}
+
+nav > a:link {
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    
+   
+}
+main {
+    background-color: white;
+    text-align: justify;
+    padding: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0px 0px 5px 0px #3D556F;
+    
+}
+
+a:link {
+    color: #5f83b3;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+main > p {
+    text-indent: 2em;
+}
+
+main > h1 {
+    color: #3D556F;
+    font-family: 'android';
+}
+
+main > h2 {
+    color: #3D556F;
+    font-family: 'android';
+    background: rgb(206,237,244);
+    background: linear-gradient(100deg, rgba(206,237,244,0.9612219887955182) 9%, rgba(202,220,239,1) 39%, rgba(255,255,255,1) 87%);
+    
+}
+
+div#mais {
+    background-color: #9FADBC;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 5px 0px #3D556F;
+}
+
+div#mais > h2 {
+    background-color: #227bb3;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+div#mais > p {
+    padding: 10px;
+    text-indent: 2em;
+}
+
+
+footer {
+    color: #CADCEF;
+    background-color: #06062A;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px #3D556F;
+}
+
+footer > strong {
+    color: white;
+}
+
+.video-flex {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+    
+}
+
+.video-flex iframe, .video-flex object, .video-flex embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+ }
+
+    div#tras {
+        padding: 20px 40px;
+        background-color: #3D556F;
+        box-shadow: 0px 0px 5px 0px #3D556F;
+    }
+
+   p#entao {
+    text-indent: 4em;
+   }
